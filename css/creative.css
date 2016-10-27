@@ -83,6 +83,10 @@ aside {
     padding: 0;
 }
 
+.navbar-register {
+    background-color: red;
+}
+
 .navbar-default {
     border-color: rgba(34,34,34,.05);
     font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif;
