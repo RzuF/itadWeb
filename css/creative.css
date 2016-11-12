@@ -412,6 +412,7 @@ header .header-content .header-content-inner p {
 .oitad img{
     border-radius: 5px;
     margin-bottom: 15px;
+    max-height: 300px;
 }
 
 .oitad .text-img{
@@ -675,7 +676,7 @@ body {
 }
 .panel-heading-landing-box {
     background: #7600FF !important; 
-    color: #fff !important; 
+    color: #1E0040 !important; 
     font-size: 16px !important; 
     padding: 3px !important; 
     border: solid 2px #7600FF !important; 
@@ -695,9 +696,11 @@ body {
     font-weight: 600;
 
     text-align: left;
+
+    color: #1E0040;
 }
 
-.panel-body-landing p{
+.panel-body-landing p{   
     margin-bottom: 0px;
 }
 
@@ -705,6 +708,10 @@ body {
     width: auto;    
     margin: 0 auto !important;
   float: none !important;
+}
+
+.panel-body-landing td {
+    border-color: #1E0040 !important;
 }
 
 .panel-body-landing small{
@@ -726,7 +733,7 @@ body {
 
 .vcenter {
     /*display: inline-block;*/
-    vertical-align: middle;
+    /*vertical-align: middle;*/
     float: none;
 }
 
@@ -808,6 +815,26 @@ body {
   height: auto;
   margin-top: 10px;
   margin-bottom: 10px;
+}
+
+.img-partner {
+    max-height: 100px;
+    max-width: 100%;
+  width: auto;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.img-patronat {
+    max-height: 200px;
+    max-width: 100%;
+  width: auto;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.block-partner {
+    height: 120px;
 }
 
 .svg-img{
